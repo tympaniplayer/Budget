@@ -15,7 +15,7 @@ namespace Budget.Core.DataAccess
 
         BudgetLine GetBudgetLine (Guid id);
         void SaveBudgetLine(BudgetLine line);
-        void DeleteBudgetMonth(Guid id);
+        void DeleteBudgetLine(Guid id);
         IEnumerable<BudgetLine> GetLinesForHeader(Guid headerId);
 
         BudgetHeader GetBudgetHeader(Guid id);

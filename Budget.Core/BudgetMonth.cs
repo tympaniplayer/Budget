@@ -15,7 +15,7 @@ namespace Budget.Core
         /// <summary>
         /// The month and year of the budget
         /// </summary>
-        public DateTime BudgetMonth { get; set; }
+        public DateTime Date { get; set; }
         /// <summary>
         /// The budget headers for the month
         /// </summary>
